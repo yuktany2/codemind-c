@@ -1,7 +1,7 @@
 #include<stdio.h>
-int main()
+int main ()
 {
-    float bs,hra,da,pf,gs;
+    float hra,da,bs,pf,gs;
     scanf("%f%f%f",&bs,&hra,&da);
     pf=bs*0.12;
     gs=bs+hra+da+pf;
